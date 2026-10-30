@@ -13,4 +13,4 @@ Quando sair uma versão nova, aparece uma faixa vermelha no Fraction e a palavra
 2. Em `chrome://extensions`, clique no ↻ da TurboFraction.
 3. Recarregue o Fraction (F5).
 
-A versão mais recente está em [`versao.json`](versao.json).
+A versão mais recente está em [`versao.json`](versao.json). O histórico de cada versão está em [`CHANGELOG.md`](CHANGELOG.md).

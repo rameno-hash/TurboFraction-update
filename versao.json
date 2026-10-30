@@ -1,12 +1,12 @@
 {
-  "versao": "1.5.8",
+  "versao": "1.5.9",
   "data": "2026-10-29",
   "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
   "notas": [
-    "Relatório de Pendências: grupo 'Outras Pendências' que pode ser recolhido (−/+)",
-    "Performance: botões de período preenchem as datas sem abrir o calendário; Destino não é mais escolhido sozinho",
-    "On Time: quando o Fraction não responde, o código volta para a fila e é tentado de novo (link 'reenviar' nos erros)",
-    "Lista On Time: leituras mostram a remessa da lista com link para a consulta e um ✕ para excluí-la",
-    "Consulta: com texto selecionado, o botão Imprimir fica vermelho e imprime uma etiqueta com o texto"
+    "Consulta: o endereço do Local de Entrega abre no Google Maps (nome, endereço e cidade)",
+    "Consulta: botão Mensagem de rastreamento copia o texto para o cliente e oferece abrir no WhatsApp",
+    "Consulta: em disponível para retirada (pickup), a mensagem usa o Local de Entrega em vez da unidade do histórico",
+    "Emissão: botão Limpar fica vermelho, com ícone de alerta, separado dos outros botões",
+    "Emissão: o clique em Limpar pede confirmação antes de apagar"
   ]
 }
