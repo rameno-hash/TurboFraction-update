@@ -1,13 +1,8 @@
 {
-  "versao": "1.6.0",
+  "versao": "1.6.1",
   "data": "2026-10-30",
   "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
   "notas": [
-    "Lista On Time: Ctrl + Processar agrupa as remessas da lista por Circuit (usa o arquivo da Performance, sem consultas extras)",
-    "Lista On Time: leituras de etiquetas do cliente também mostram a remessa",
-    "Performance de Coleta: botão Coletas Pickup (coletas Depositado no PUDO por PUDO e motorista, com texto para o WhatsApp)",
-    "Pickup › PUDOs: coluna Motorista para anotar quem atende cada PUDO",
-    "Painel de Pendências e Vencimentos: consulta por ORIGEM agrupada por Unidade Atual, com a Custódia aberta pela Descrição",
-    "Consulta: links de NF-e e CT-e de volta para o portal da Receita"
+    "Consulta: ocorrência com Devolver mantém o cartão aberto para a etiqueta de devolução ser impressa"
   ]
 }
