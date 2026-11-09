@@ -1,9 +1,10 @@
 {
-  "versao": "1.6.4",
+  "versao": "1.6.5",
   "data": "2026-11-09",
   "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
   "notas": [
-    "Consulta: manifesto reimpresso num cartão, sem sair da consulta (Ctrl + clique abre numa aba nova)",
-    "Textos prontos e motoristas dos PUDOs: cópia automática no site (voltam sozinhos se a extensão for reinstalada) e backup em arquivo (Exportar/Importar no cartão Alt + T)"
+    "Lista On Time: bipes de leitura (positivo, duplicado e buzina de erro) com botão para silenciar",
+    "Painel de Pendências: previsão em negrito quando vence hoje e em vermelho quando já venceu",
+    "Textos prontos: excluir e editar corrigidos"
   ]
 }
