@@ -1,8 +1,15 @@
 {
-  "versao": "1.6.1",
-  "data": "2026-10-30",
+  "versao": "1.6.3",
+  "data": "2026-11-09",
   "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
   "notas": [
-    "Consulta: ocorrência com Devolver mantém o cartão aberto para a etiqueta de devolução ser impressa"
+    "Consulta: Alt + T ou o botão Textos prontos abre textos de observação salvos (adicionar, editar, excluir e enviar)",
+    "Consulta: manifesto das transferências e dos TRAVADO vira link para reimpressão",
+    "Consulta e pesquisa por CPF/CNPJ expiradas reabrem sozinhas",
+    "Cortina branca do Fraction desativada",
+    "Lista de Entrega: Vencimento do Dia em janela agrupada por rota, com Copiar p/ WhatsApp",
+    "Conferência: PDF original gerado numa aba nova",
+    "Painéis: botão Baixar arquivo",
+    "Recebimento: Ctrl + Shift + C copia as remessas da lista"
   ]
 }
