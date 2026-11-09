@@ -4,7 +4,8 @@ name: Release
 on:
   push:
     branches: [main]
-    paths: [versao.json]
+    paths: [versao.json, .github/workflows/release.yml]
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
