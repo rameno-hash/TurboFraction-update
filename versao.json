@@ -1,15 +1,9 @@
 {
-  "versao": "1.6.3",
+  "versao": "1.6.4",
   "data": "2026-11-09",
   "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
   "notas": [
-    "Consulta: Alt + T ou o botão Textos prontos abre textos de observação salvos (adicionar, editar, excluir e enviar)",
-    "Consulta: manifesto das transferências e dos TRAVADO vira link para reimpressão",
-    "Consulta e pesquisa por CPF/CNPJ expiradas reabrem sozinhas",
-    "Cortina branca do Fraction desativada",
-    "Lista de Entrega: Vencimento do Dia em janela agrupada por rota, com Copiar p/ WhatsApp",
-    "Conferência: PDF original gerado numa aba nova",
-    "Painéis: botão Baixar arquivo",
-    "Recebimento: Ctrl + Shift + C copia as remessas da lista"
+    "Consulta: manifesto reimpresso num cartão, sem sair da consulta (Ctrl + clique abre numa aba nova)",
+    "Textos prontos e motoristas dos PUDOs: cópia automática no site (voltam sozinhos se a extensão for reinstalada) e backup em arquivo (Exportar/Importar no cartão Alt + T)"
   ]
 }
