@@ -1,7 +1,7 @@
 {
   "versao": "1.6.5",
   "data": "2026-11-09",
-  "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
+  "download": "https://github.com/rameno-hash/TurboFraction-update/releases/latest/download/turbofraction.zip",
   "notas": [
     "Lista On Time: bipes de leitura (positivo, duplicado e buzina de erro) com botão para silenciar",
     "Painel de Pendências: previsão em negrito quando vence hoje e em vermelho quando já venceu",

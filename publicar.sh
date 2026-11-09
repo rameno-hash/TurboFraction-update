@@ -13,7 +13,7 @@ ver, notas = sys.argv[1], sys.argv[2:]
 json.dump({
   "versao": ver,
   "data": datetime.date.today().isoformat(),
-  "download": "https://github.com/rameno-hash/TurboFraction-update/raw/main/turbofraction.zip",
+  "download": "https://github.com/rameno-hash/TurboFraction-update/releases/latest/download/turbofraction.zip",
   "notas": notas,
 }, open("versao.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 PY

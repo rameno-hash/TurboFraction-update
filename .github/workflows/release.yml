@@ -20,7 +20,10 @@ jobs:
           VER=$(python3 -c "import json;print(json.load(open('versao.json'))['versao'])")
           python3 -c "import json;print('\n'.join('- '+n for n in json.load(open('versao.json'))['notas']))" > notas.md
           if gh release view "v$VER" >/dev/null 2>&1; then
-            gh release upload "v$VER" turbofraction.zip --clobber
+            # Só troca o arquivo se ele mudou (trocar zera a contagem de downloads)
+            ATUAL=$(gh release view "v$VER" --json assets --jq '.assets[] | select(.name=="turbofraction.zip") | .size')
+            NOVO=$(stat -c %s turbofraction.zip)
+            if [ "$ATUAL" != "$NOVO" ]; then gh release upload "v$VER" turbofraction.zip --clobber; else echo "zip igual; nada a fazer"; fi
           else
             gh release create "v$VER" turbofraction.zip --title "TurboFraction $VER" --notes-file notas.md --latest
           fi
