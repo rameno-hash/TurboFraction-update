@@ -1,0 +1,25 @@
+# Cria o Release do GitHub (com o turbofraction.zip anexado) sempre que uma versão nova é publicada.
+# O GitHub conta os downloads de cada Release.
+name: Release
+on:
+  push:
+    branches: [main]
+    paths: [versao.json]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Criar ou atualizar o Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VER=$(python3 -c "import json;print(json.load(open('versao.json'))['versao'])")
+          python3 -c "import json;print('\n'.join('- '+n for n in json.load(open('versao.json'))['notas']))" > notas.md
+          if gh release view "v$VER" >/dev/null 2>&1; then
+            gh release upload "v$VER" turbofraction.zip --clobber
+          else
+            gh release create "v$VER" turbofraction.zip --title "TurboFraction $VER" --notes-file notas.md --latest
+          fi
