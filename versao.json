@@ -1,15 +1,11 @@
 {
-  "versao": "1.6.6",
-  "data": "2026-11-12",
+  "versao": "1.6.7",
+  "data": "2026-11-13",
   "download": "https://github.com/rameno-hash/TurboFraction-update/releases/latest/download/turbofraction.zip",
   "notas": [
-    "Emissão: botão Consultar NF-e, que traz número, série, valor, remetente e destinatário da Receita",
-    "Emissão em sequência (Alt+E) para encomendas que já vêm com etiqueta",
-    "Consulta: botão Solicitar TDE e ocorrência também para coletas",
-    "Remessas fixadas (📌): lista lateral com destinatário e último status do histórico",
-    "Performance de Coleta: Dashboard de coletas pendentes, atalhos de período e motorista do PUDO no Coletas Pickup",
-    "Performance de Entrega: Dashboard e Vencimentos do Dia direto na tela de filtro, e QR Code das remessas faltantes para o JadlogScan",
-    "Recebimento por arquivo em duas etapas e contagem falada na Lista On Time",
-    "Textos prontos: ordem ajustável arrastando"
+    "Entrada On Time: na virada do dia o buffer só é zerado, sem baixar arquivo",
+    "Códigos importados de arquivo não entram mais no buffer (sem duplicação)",
+    "Recebimento de Remessas: o número da remessa na tabela abre a consulta em outra aba",
+    "Textos prontos: o Importar do backup mantém a ordem arrastada"
   ]
 }
