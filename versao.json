@@ -1,11 +1,11 @@
 {
-  "versao": "1.6.7",
-  "data": "2026-11-13",
-  "download": "https://github.com/rameno-hash/TurboFraction-update/releases/latest/download/turbofraction.zip",
+  "versao": "1.7.0",
+  "data": "2026-11-14",
+  "download": "https://chromewebstore.google.com/detail/nhjpclfhmcllganfgkjheamjfefheilp",
   "notas": [
-    "Entrada On Time: na virada do dia o buffer só é zerado, sem baixar arquivo",
-    "Códigos importados de arquivo não entram mais no buffer (sem duplicação)",
-    "Recebimento de Remessas: o número da remessa na tabela abre a consulta em outra aba",
-    "Textos prontos: o Importar do backup mantém a ordem arrastada"
+    "A TurboFraction agora está na Chrome Web Store.",
+    "Clique no botão para abrir a loja e instale por lá (botão 'Usar no Chrome').",
+    "Depois, remova esta versão antiga em chrome://extensions, senão os botões ficam em dobro.",
+    "A partir da loja as atualizações passam a chegar sozinhas, sem baixar zip."
   ]
 }
